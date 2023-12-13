@@ -1,0 +1,96 @@
+\nonstopmode{}
+\documentclass[a4paper]{book}
+\usepackage[times,inconsolata,hyper]{Rd}
+\usepackage{makeidx}
+\usepackage[utf8]{inputenc} % @SET ENCODING@
+% \usepackage{graphicx} % @USE GRAPHICX@
+\makeindex{}
+\begin{document}
+\chapter*{}
+\begin{center}
+{\textbf{\huge Package `Analyzr'}}
+\par\bigskip{\large \today}
+\end{center}
+\inputencoding{utf8}
+\ifthenelse{\boolean{Rd@use@hyper}}{\hypersetup{pdftitle = {Analyzr: Analyzes Dataframe for Variable Type, Normality, and Missingness}}}{}
+\ifthenelse{\boolean{Rd@use@hyper}}{\hypersetup{pdfauthor = {David Gabrielli}}}{}
+\begin{description}
+\raggedright{}
+\item[Title]\AsIs{Analyzes Dataframe for Variable Type, Normality, and Missingness}
+\item[Version]\AsIs{0.0.0.9000}
+\item[Description]\AsIs{This package examines all the variables in a dataframe and returns variable quantity and type, as well as missingness metrics, results of a Kruskal-Wallis test, and list of variables that failed. It is an analyzer to help prep dataframes for correlation testing with the corr function.}
+\item[License]\AsIs{`use_mit_license()`, `use_gpl3_license()` or friends to pick a
+license}
+\item[Encoding]\AsIs{UTF-8}
+\item[Roxygen]\AsIs{list(markdown = TRUE)}
+\item[RoxygenNote]\AsIs{7.2.3.9000}
+\item[Depends]\AsIs{R (>=
+2.10),VIM,dplyr,kableExtra,vcd,DescTools,dunn.test,knitr,tidyverse,corrplot}
+\item[LazyData]\AsIs{true}
+\item[Suggests]\AsIs{rmarkdown, testthat (>= 3.0.0)}
+\item[Config/testthat/edition]\AsIs{3}
+\item[VignetteBuilder]\AsIs{knitr}
+\item[NeedsCompilation]\AsIs{no}
+\item[Author]\AsIs{David Gabrielli [aut, cre] (YOUR-ORCID-ID)}
+\item[Maintainer]\AsIs{David Gabrielli }\email{gabrielli.d@gmail.com}\AsIs{}
+\end{description}
+\Rdcontents{\R{} topics documented:}
+\inputencoding{utf8}
+\HeaderA{analyzer}{Data Analyzer}{analyzer}
+%
+\begin{Description}\relax
+A package for examining and formatting data.
+\end{Description}
+%
+\begin{Usage}
+\begin{verbatim}
+analyzer(data, sample_size = 50, norm_test = T)
+\end{verbatim}
+\end{Usage}
+%
+\begin{Arguments}
+\begin{ldescription}
+\item[\code{data}] A data frame containing binary, continuous, nonimal factor, or ordinal factor.
+
+\item[\code{sample\_size}] An integer determining the sample size of each variable used for normality testing. Default is 50 or max in dataframe if less than 50.
+
+\item[\code{norm\_test}] True or False used to determine if Shapiro-Wilk Normality testing is conducted on variables in dataframe.
+\end{ldescription}
+\end{Arguments}
+%
+\begin{Value}
+A list of all variables and types, a list of missing variables, and a Shapiro-Wilk normality metric.
+Places variables into new dataframes based on variable class and evaluates readiness for correlation testing
+by corr\_function.
+
+full\_shapiro\_df A dataframe with the Shapiro-Wilk results for all variables in your data file
+
+sig\_shapiro\_df A dataframe with the Shapiro-Wilk results for all variables that were statistically significant (p <= 0.05)
+
+failed\_var A list of the variables that failed the Shapiro-Wilk Normality Test
+
+cont\_vars A dataframe of all the continuous variables in your data file - will be empty if none
+
+bi\_vars A dataframe of all the binary variables in your data file - will be empty if none
+
+nom\_vars A dataframe of all the nominal factor variables in your data file - will be empty if none
+
+ord\_vars A dataframe of all the ordered factor variables in your data file - will be empty if none
+
+missing\_info A dataframe with the missingness summary
+
+variables A summary table of the variable types by variable name
+
+var\_type\_count A summary table of the variable counts by type
+\end{Value}
+%
+\begin{Examples}
+\begin{ExampleCode}
+data(iris)
+data(mtcars)
+data(train)
+
+\end{ExampleCode}
+\end{Examples}
+\printindex{}
+\end{document}

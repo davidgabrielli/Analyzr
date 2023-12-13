@@ -1,0 +1,59 @@
+* installing *source* package 'Analyzr' ...
+** using staged installation
+** R
+** data
+*** moving datasets to lazyload DB
+** inst
+** byte-compile and prepare package for lazy loading
+There were 17 warnings (use warnings() to see them)
+Warning: replacing previous import 'dplyr::group_rows' by 'kableExtra::group_rows' when loading 'Analyzr'
+Warning: replacing previous import 'dplyr::filter' by 'stats::filter' when loading 'Analyzr'
+Warning: replacing previous import 'dplyr::lag' by 'stats::lag' when loading 'Analyzr'
+** help
+*** installing help indices
+** building package indices
+** installing vignettes
+** testing if installed package can be loaded from temporary location
+Warning: package 'VIM' was built under R version 4.2.3
+Warning: package 'colorspace' was built under R version 4.2.3
+Warning: package 'dplyr' was built under R version 4.2.3
+Warning: package 'kableExtra' was built under R version 4.2.3
+Warning: package 'vcd' was built under R version 4.2.3
+Warning: package 'DescTools' was built under R version 4.2.3
+Warning: package 'knitr' was built under R version 4.2.3
+Warning: package 'tidyverse' was built under R version 4.2.3
+Warning: package 'ggplot2' was built under R version 4.2.3
+Warning: package 'tibble' was built under R version 4.2.3
+Warning: package 'tidyr' was built under R version 4.2.3
+Warning: package 'readr' was built under R version 4.2.3
+Warning: package 'purrr' was built under R version 4.2.3
+Warning: package 'stringr' was built under R version 4.2.3
+Warning: package 'forcats' was built under R version 4.2.3
+Warning: package 'lubridate' was built under R version 4.2.3
+Warning: package 'corrplot' was built under R version 4.2.3
+Warning: replacing previous import 'dplyr::group_rows' by 'kableExtra::group_rows' when loading 'Analyzr'
+Warning: replacing previous import 'dplyr::filter' by 'stats::filter' when loading 'Analyzr'
+Warning: replacing previous import 'dplyr::lag' by 'stats::lag' when loading 'Analyzr'
+** testing if installed package can be loaded from final location
+Warning: package 'VIM' was built under R version 4.2.3
+Warning: package 'colorspace' was built under R version 4.2.3
+Warning: package 'dplyr' was built under R version 4.2.3
+Warning: package 'kableExtra' was built under R version 4.2.3
+Warning: package 'vcd' was built under R version 4.2.3
+Warning: package 'DescTools' was built under R version 4.2.3
+Warning: package 'knitr' was built under R version 4.2.3
+Warning: package 'tidyverse' was built under R version 4.2.3
+Warning: package 'ggplot2' was built under R version 4.2.3
+Warning: package 'tibble' was built under R version 4.2.3
+Warning: package 'tidyr' was built under R version 4.2.3
+Warning: package 'readr' was built under R version 4.2.3
+Warning: package 'purrr' was built under R version 4.2.3
+Warning: package 'stringr' was built under R version 4.2.3
+Warning: package 'forcats' was built under R version 4.2.3
+Warning: package 'lubridate' was built under R version 4.2.3
+Warning: package 'corrplot' was built under R version 4.2.3
+Warning: replacing previous import 'dplyr::group_rows' by 'kableExtra::group_rows' when loading 'Analyzr'
+Warning: replacing previous import 'dplyr::filter' by 'stats::filter' when loading 'Analyzr'
+Warning: replacing previous import 'dplyr::lag' by 'stats::lag' when loading 'Analyzr'
+** testing if installed package keeps a record of temporary installation path
+* DONE (Analyzr)

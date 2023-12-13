@@ -1,0 +1,103 @@
+* using log directory 'C:/Users/gabri/Documents/ComputingProject/Analyzr/Analyzr.Rcheck'
+* using R version 4.2.1 (2022-06-23 ucrt)
+* using platform: x86_64-w64-mingw32 (64-bit)
+* using session charset: UTF-8
+* checking for file 'Analyzr/DESCRIPTION' ... OK
+* this is package 'Analyzr' version '0.0.0.9000'
+* package encoding: UTF-8
+* checking package namespace information ... OK
+* checking package dependencies ... NOTE
+Depends: includes the non-default packages:
+  'VIM', 'dplyr', 'kableExtra', 'vcd', 'DescTools', 'dunn.test',
+  'knitr', 'tidyverse', 'corrplot'
+Adding so many packages to the search path is excessive and importing
+selectively is preferable.
+* checking if this is a source package ... OK
+* checking if there is a namespace ... OK
+* checking for executable files ... OK
+* checking for hidden files and directories ... OK
+* checking for portable file names ... OK
+* checking whether package 'Analyzr' can be installed ... WARNING
+Found the following significant warnings:
+  Warning: package 'VIM' was built under R version 4.2.3
+  Warning: package 'colorspace' was built under R version 4.2.3
+  Warning: package 'dplyr' was built under R version 4.2.3
+  Warning: package 'kableExtra' was built under R version 4.2.3
+  Warning: package 'vcd' was built under R version 4.2.3
+  Warning: package 'DescTools' was built under R version 4.2.3
+  Warning: package 'knitr' was built under R version 4.2.3
+  Warning: package 'tidyverse' was built under R version 4.2.3
+  Warning: package 'ggplot2' was built under R version 4.2.3
+  Warning: package 'tibble' was built under R version 4.2.3
+  Warning: package 'tidyr' was built under R version 4.2.3
+  Warning: package 'readr' was built under R version 4.2.3
+  Warning: package 'purrr' was built under R version 4.2.3
+  Warning: package 'stringr' was built under R version 4.2.3
+  Warning: package 'forcats' was built under R version 4.2.3
+  Warning: package 'lubridate' was built under R version 4.2.3
+  Warning: package 'corrplot' was built under R version 4.2.3
+  Warning: replacing previous import 'dplyr::group_rows' by 'kableExtra::group_rows' when loading 'Analyzr'
+  Warning: replacing previous import 'dplyr::filter' by 'stats::filter' when loading 'Analyzr'
+  Warning: replacing previous import 'dplyr::lag' by 'stats::lag' when loading 'Analyzr'
+See 'C:/Users/gabri/Documents/ComputingProject/Analyzr/Analyzr.Rcheck/00install.out' for details.
+* checking installed package size ... OK
+* checking package directory ... OK
+* checking 'build' directory ... OK
+* checking DESCRIPTION meta-information ... WARNING
+Non-standard license specification:
+  `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+  license
+Standardizable: FALSE
+* checking top-level files ... OK
+* checking for left-over files ... OK
+* checking index information ... OK
+* checking package subdirectories ... OK
+* checking R files for non-ASCII characters ... OK
+* checking R files for syntax errors ... OK
+* checking whether the package can be loaded ... OK
+* checking whether the package can be loaded with stated dependencies ... OK
+* checking whether the package can be unloaded cleanly ... OK
+* checking whether the namespace can be loaded with stated dependencies ... OK
+* checking whether the namespace can be unloaded cleanly ... OK
+* checking loading without being on the library search path ... OK
+* checking dependencies in R code ... OK
+* checking S3 generic/method consistency ... OK
+* checking replacement functions ... OK
+* checking foreign function calls ... OK
+* checking R code for possible problems ... OK
+* checking Rd files ... OK
+* checking Rd metadata ... OK
+* checking Rd cross-references ... OK
+* checking for missing documentation entries ... OK
+* checking for code/documentation mismatches ... OK
+* checking Rd \usage sections ... OK
+* checking Rd contents ... OK
+* checking for unstated dependencies in examples ... OK
+* checking contents of 'data' directory ... WARNING
+Output for data("iris", package = "Analyzr"):
+  No dataset created in 'envir'
+Output for data("mtcars", package = "Analyzr"):
+  No dataset created in 'envir'
+Output for data("train", package = "Analyzr"):
+  No dataset created in 'envir'
+* checking data for non-ASCII characters ... OK
+* checking LazyData ... OK
+* checking data for ASCII and uncompressed saves ... OK
+* checking installed files from 'inst/doc' ... OK
+* checking files in 'vignettes' ... OK
+* checking examples ... OK
+* checking for unstated dependencies in 'tests' ... OK
+* checking tests ... OK
+  Running 'testthat.R'
+* checking for unstated dependencies in vignettes ... OK
+* checking package vignettes in 'inst/doc' ... OK
+* checking running R code from vignettes ... NONE
+  'Analyzr.Rmd' using 'UTF-8'... OK
+* checking re-building of vignette outputs ... OK
+* checking PDF version of manual ... WARNING
+LaTeX errors when creating PDF version.
+This typically indicates Rd problems.
+LaTeX errors found:
+* checking PDF version of manual without index ... ERROR
+* DONE
+Status: 1 ERROR, 4 WARNINGs, 1 NOTE

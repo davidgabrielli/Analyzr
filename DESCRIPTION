@@ -1,0 +1,20 @@
+Package: Analyzr
+Title: Analyzes Dataframe for Variable Type, Normality, and Missingness
+Version: 0.0.0.9000
+Authors@R: 
+    person("David", "Gabrielli", , "gabrielli.d@gmail.com", role = c("aut", "cre"),
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: This package examines all the variables in a dataframe and returns variable quantity and type, as well as missingness metrics, results of a Kruskal-Wallis test, and list of variables that failed. It is an analyzer to help prep dataframes for correlation testing with the corr function.
+License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
+    license
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3.9000
+Depends: 
+    R (>= 2.10),VIM,dplyr,kableExtra,vcd,DescTools,dunn.test,knitr,tidyverse,corrplot
+LazyData: true
+Suggests: 
+    rmarkdown,
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+VignetteBuilder: knitr

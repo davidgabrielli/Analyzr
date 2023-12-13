@@ -1,0 +1,478 @@
+Hmm ... looks like a package
+Converting parsed Rd's to LaTeX 
+Creating pdf output from LaTeX ...
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./Rd2.tex
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-11-01>
+
+(c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+(c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/bk10.clo)) (c:/Program Files/R/R-4.2.1/share/texmf/tex/latex/Rd.sty (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/bm.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/alltt.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/verbatim.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/times.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/color.sty (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty)) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/auxhook/auxhook.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty))) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty)) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 388.
+
+
+Package hyperref Warning: Option `pagebackref' has already been used,
+(hyperref)                setting the option has no effect on input line 388.
+
+) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/t1ptm.fd) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def)
+No file Rd2.aux.
+(c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/t1pcr.fd)name = pcrr8t, rootname = pcrr8t, pointsize = 
+mktexmf: empty or non-existent rootfile!
+
+kpathsea: Running mktexmf pcrr8t.mf
+
+The command name is C:\Users\gabri\AppData\Roaming\TinyTeX\bin\windows\mktexmf
+Cannot find pcrr8t.mf.
+
+! Font T1/pcr/m/n/10=pcrr8t at 10.0pt not loadable: Metric (TFM) file not found.
+<to be read again> 
+                   relax 
+l.33 ...d Gabrielli }\email{gabrielli.d@gmail.com}
+                                                  \AsIs{}
+Missing character: There is no < in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no @ in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no > in font nullfont!
+(c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/t1phv.fd)
+No file Rd2.toc.
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no _ in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no _ in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+[1{c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}]name = pcrr8t, rootname = pcrr8t, pointsize = 
+mktexmf: empty or non-existent rootfile!
+
+kpathsea: Running mktexmf pcrr8t.mf
+
+The command name is C:\Users\gabri\AppData\Roaming\TinyTeX\bin\windows\mktexmf
+Cannot find pcrr8t.mf.
+
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no _ in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no _ in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no _ in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no _ in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+! Font T1/pcr/m/n/9=pcrr8t at 9.0pt not loadable: Metric (TFM) file not found.
+<to be read again> 
+                   relax 
+l.86 \begin{ExampleCode}
+                        
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ) in font nullfont!
+[2] (./Rd2.aux)
+
+Package rerunfilecheck Warning: File `Rd2.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+ )
+(see the transcript file for additional information) <c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk><c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Rd2.pdf (2 pages, 53560 bytes).
+Transcript written on Rd2.log.
+
+kpathsea: Running mktextfm pcrr8t
+
+The command name is C:\Users\gabri\AppData\Roaming\TinyTeX\bin\windows\mktextfm
+kpathsea: Appending font creation commands to missfont.log.
+
+kpathsea: Running mktextfm pcrr8t
+
+The command name is C:\Users\gabri\AppData\Roaming\TinyTeX\bin\windows\mktextfm
+Error in texi2dvi(file = file, pdf = TRUE, clean = clean, quiet = quiet,  : 
+  unable to run pdflatex on 'Rd2.tex'
+LaTeX errors:
+! Font T1/pcr/m/n/10=pcrr8t at 10.0pt not loadable: Metric (TFM) file not found.
+<to be read again> 
+                   relax 
+l.33 ...d Gabrielli }\email{gabrielli.d@gmail.com}
+                                                  \AsIs{}
+! Font T1/pcr/m/n/9=pcrr8t at 9.0pt not loadable: Metric (TFM) file not found.
+<to be read again> 
+                   relax 
+l.86 \begin{ExampleCode}
+                        
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex)
+ restricted \write18 enabled.
+entering extended mode
+(./Rd2.tex
+LaTeX2e <2023-11-01>
+L3 programming layer <2023-11-01>
+
+(c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2023/05/17 v1.4n Standard LaTeX document class
+(c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/bk10.clo)) (c:/Program Files/R/R-4.2.1/share/texmf/tex/latex/Rd.sty (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/ifthen.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/longtable.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/bm.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/alltt.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/tools/verbatim.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/url/url.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/textcomp.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/iftex/iftex.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/times.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/color.sty (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-cfg/color.cfg) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics-def/pdftex.def) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/mathcolor.ltx)) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hyperref.sty (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/ltxcmds/ltxcmds.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdftexcmds/pdftexcmds.sty (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/infwarerr/infwarerr.sty)) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/graphics/keyval.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kvsetkeys/kvsetkeys.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/kvdefinekeys/kvdefinekeys.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/pdfescape/pdfescape.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hycolor/hycolor.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/letltxmacro/letltxmacro.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/auxhook/auxhook.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/nameref.sty (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/refcount/refcount.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/kvoptions/kvoptions.sty))) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/etoolbox/etoolbox.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/pd1enc.def) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/intcalc/intcalc.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/puenc.def) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bitset/bitset.sty (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/bigintcalc/bigintcalc.sty)) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atbegshi-ltx.sty)) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/hyperref/hpdftex.def (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/atveryend-ltx.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/rerunfilecheck/rerunfilecheck.sty (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/generic/uniquecounter/uniquecounter.sty)))
+
+Package hyperref Warning: Option `hyperindex' has already been used,
+(hyperref)                setting the option has no effect on input line 388.
+
+
+Package hyperref Warning: Option `pagebackref' has already been used,
+(hyperref)                setting the option has no effect on input line 388.
+
+) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/base/inputenc.sty) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/t1ptm.fd) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def) (./Rd2.aux) (./Rd2.out) (./Rd2.out) (c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/t1pcr.fd)name = pcrr8t, rootname = pcrr8t, pointsize = 
+mktexmf: empty or non-existent rootfile!
+
+kpathsea: Running mktexmf pcrr8t.mf
+
+The command name is C:\Users\gabri\AppData\Roaming\TinyTeX\bin\windows\mktexmf
+Cannot find pcrr8t.mf.
+
+! Font T1/pcr/m/n/10=pcrr8t at 10.0pt not loadable: Metric (TFM) file not found.
+<to be read again> 
+                   relax 
+l.33 ...d Gabrielli }\email{gabrielli.d@gmail.com}
+                                                  \AsIs{}
+Missing character: There is no < in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no @ in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no > in font nullfont!
+(c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/tex/latex/psnfss/t1phv.fd) (./Rd2.toc)
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no y in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no _ in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 5 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no _ in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+[1{c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}]name = pcrr8t, rootname = pcrr8t, pointsize = 
+mktexmf: empty or non-existent rootfile!
+
+kpathsea: Running mktexmf pcrr8t.mf
+
+The command name is C:\Users\gabri\AppData\Roaming\TinyTeX\bin\windows\mktexmf
+Cannot find pcrr8t.mf.
+
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no _ in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no _ in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no z in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no _ in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no _ in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no t in font nullfont!
+! Font T1/pcr/m/n/9=pcrr8t at 9.0pt not loadable: Metric (TFM) file not found.
+<to be read again> 
+                   relax 
+l.86 \begin{ExampleCode}
+                        
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no m in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no ) in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no ( in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no ) in font nullfont!
+[2] (./Rd2.aux) )
+(see the transcript file for additional information) <c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-var/fonts/pk/ljfour/jknappen/ec/tcrm1000.600pk><c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/helvetic/uhvr8a.pfb><c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/times/utmb8a.pfb><c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/times/utmr8a.pfb><c:/Users/gabri/AppData/Roaming/TinyTeX/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
+Output written on Rd2.pdf (2 pages, 53794 bytes).
+Transcript written on Rd2.log.
+
+kpathsea: Running mktextfm pcrr8t
+
+The command name is C:\Users\gabri\AppData\Roaming\TinyTeX\bin\windows\mktextfm
+kpathsea: Appending font creation commands to missfont.log.
+
+kpathsea: Running mktextfm pcrr8t
+
+The command name is C:\Users\gabri\AppData\Roaming\TinyTeX\bin\windows\mktextfm
+Error in texi2dvi(file = file, pdf = TRUE, clean = clean, quiet = quiet,  : 
+  unable to run pdflatex on 'Rd2.tex'
+LaTeX errors:
+! Font T1/pcr/m/n/10=pcrr8t at 10.0pt not loadable: Metric (TFM) file not found.
+<to be read again> 
+                   relax 
+l.33 ...d Gabrielli }\email{gabrielli.d@gmail.com}
+                                                  \AsIs{}
+! Font T1/pcr/m/n/9=pcrr8t at 9.0pt not loadable: Metric (TFM) file not found.
+<to be read again> 
+                   relax 
+l.86 \begin{ExampleCode}
+                        
+Error in running tools::texi2pdf()
+You may want to clean up by 'rm -Rf C:/Users/gabri/AppData/Local/Temp/RtmpymZLkQ/Rd2pdf540419df1f2f'
