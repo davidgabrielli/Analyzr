@@ -1,0 +1,102 @@
+## Overview
+
+The Analyzr package is designed to assist in preprocessing and investigation of a data file before beginning data analysis. It is intended to provide simple and easy to understand feedback about your data file, while also preparing output files and new data files to be used with subsequent packages. It summarizes variable type and count, missingness, and Shapiro-Wilk normality test results. It will not provide normality testing if there is missingness present.
+
+The function analyzer takes 3 inputs, data, norm_test, and sample_size. 
+
+* data: data file to be analyzed in dataframe format
+* norm_test: (True or False) If you would like to run a Shapiro_Wilk Normality test on your variables, default = T
+* sample_size: (integer) Sample size from each variable to use for running Shapiro-Wilk, default = 50
+
+## Installation
+```{r, warning=FALSE, message=FALSE}
+
+
+if (!requireNamespace("devtools", quietly=TRUE))
+    install.packages("devtools")
+devtools::install_github("https://github.com/davidgabrielli/Analyzr")
+
+
+```
+
+## Running analyzer() Function 
+Using the publicly available iris data set.
+```{r}
+
+iris.analysis <- analyzer(iris, norm_test = T, sample_size = 50)
+
+```
+
+## Outputs
+
+The output should provide the following information: 
+
+* A list of character variables in the data set
+* A summary of the variables - count and name by type
+* A summary of variables with missingness, if any
+* A summary of Shapiro-Wilk Normality Test of all variables and which variables failed this test
+
+The output files produced by analyzer will vary depending on the data file specifics, but will include the following if applicable to your data set.
+
+* A dataframe with the Shapiro-Wilk results for all variables in your data file
+* A dataframe with the Shapiro-Wilk results for all variables that were statistically significant (p <= 0.05)
+* A list of the variables that failed the Shapiro-Wilk Normality Test
+* A dataframe of all the continuous variables in your data file - will be empty if none
+* A dataframe of all the binary variables in your data file - will be empty if none
+* A dataframe of all the nominal factor variables in your data file - will be empty if none
+* A dataframe of all the ordered factor variables in your data file - will be empty if none
+* A dataframe with the missingness summary
+* A summary table of the variable types by variable name
+* A summary table of the variable counts by type
+
+## Output File Examples
+
+- Dataframe with the Shapiro-Wilk results for all variables
+```{r}
+iris.analysis$full_shapiro_df
+```
+
+- A dataframe with the Shapiro-Wilk results for all variables that were statistically significant (p <= 0.05)
+```{r}
+iris.analysis$sig_shapiro_df
+```
+
+- A list of the variables that failed the Shapiro-Wilk Normality Test
+```{r}
+iris.analysis$failed_var
+```
+
+- A dataframe of all the continuous variables in your data file
+```{r}
+iris.analysis$cont_vars
+```
+
+- A dataframe of all the binary variables in your data file
+```{r}
+iris.analysis$bi_vars
+```
+
+- A dataframe of all the nominal factor variables in your data file
+```{r}
+iris.analysis$nom_vars
+```
+
+- A dataframe of all the ordered factor variables in your data file
+```{r}
+iris.analysis$ord_vars
+```
+
+- A dataframe with the missingness summary
+```{r}
+# There is no missingness in the iris data set. Would be iris.analysis$missin_info if there were.
+```
+
+- A summary table of the variable types by variable name
+```{r}
+iris.analysis$variables
+```
+
+- A summary table of the variable counts by type
+```{r}
+iris.analysis$var_type_count
+```
