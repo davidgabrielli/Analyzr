@@ -15,9 +15,9 @@ knitr::opts_chunk$set(
 )
 ```
 
-## Analyzr Tutorial
+## Overview
 
-The Analyzr package is designed to assist in preprocessing and investigation of a data file before beginning data analysis. It is intended to provide simple and easy to understand feedback about your data file, while also preparing output files and new data files to be used with subsequent packages. It summarizes variable type and count, if character variables are present, missingness, and normality testing. It will not provide normality testing if there is missingness present.
+The Analyzr package is designed to assist in preprocessing and investigation of a data file before beginning data analysis. It is intended to provide simple and easy to understand feedback about your data file, while also preparing output files and new data files to be used with subsequent packages. It summarizes variable type and count, missingness, and Shapiro-Wilk normality test results. It will not provide normality testing if there is missingness present.
 
 The function analyzer takes 3 inputs, data, norm_test, and sample_size. 
 
@@ -34,6 +34,7 @@ library(Analyzr)
 ```
 
 ## Running analyzer() Function 
+Using the publicly available iris data set.
 
 ```{r}
 
