@@ -8,6 +8,8 @@ The function analyzer takes 3 inputs, data, norm_test, and sample_size.
 * norm_test: (True or False) If you would like to run a Shapiro_Wilk Normality test on your variables, default = T
 * sample_size: (integer) Sample size from each variable to use for running Shapiro-Wilk, default = 50
 
+* Find vignette [here](https://github.com/davidgabrielli/Analyzr/blob/main/vignettes/Analyzr%20Vignette.html)
+
 ## Installation
 ```{r, warning=FALSE, message=FALSE}
 
