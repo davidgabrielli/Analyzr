@@ -199,26 +199,23 @@ analyzer <- function(data, sample_size = 50, norm_test = T) {
                   }
 
                 }
-
-
+                
                 # Combine All Shapiro-Wilk results into a data frame
                 shapiro_results_df <- do.call(rbind, shapiro_results)
-
-                # Replace column index with a sequence starting from 1
-                rownames(shapiro_results_df) <- seq_len(nrow(shapiro_results_df))
-
                 # Combine Sig Shapiro-Wilk results into a data frame
                 sig_results_df <- do.call(rbind, sig_results)
 
-                # Replace column index with a sequence starting from 1
-                rownames(sig_results_df) <- seq_len(nrow(sig_results_df))
             }
+
+            # Replace column index with a sequence starting from 1
+            rownames(shapiro_results_df) <- seq_len(nrow(shapiro_results_df))
+            rownames(sig_results_df) <- seq_len(nrow(sig_results_df))
+
             # Print normality test result
 
             cat("\n\nA number of variables failed the Shapiro-Wilk Normality test and may not be normally distributed. It is recommended to plot a histogram of each variable to verify these findings and perform the appropriate transformations if necessary prior to continuing to do correlation testing. The results for all variables with p-values and w scores can be found in the output table. \n\n",
                 fill = T)
 
-            
 
             cat("The variables that failed the normality test are:\n")
             cat(paste(failed_var, collapse = "\n"), "\n")
